@@ -1,5 +1,5 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
+[npm][npm-url]
+[node][node-url]
 
 # i18n-json-loader for Webpack
 
@@ -101,5 +101,7 @@ module.exports = {
 
 | [Clay Wang][clay] |
 
+[npm-url]: https://www.npmjs.com/package/i18n-json-loader
+[node-url]: https://nodejs.org
 
 [clay]: https://github.com/claytonwang
