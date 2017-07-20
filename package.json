@@ -1,6 +1,6 @@
 {
   "name": "i18n-json-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Clay Wang",
   "description": "i18n json file translate loader module for webpack. Use for 'resx2tsjs'",
   "entry": "index.js",

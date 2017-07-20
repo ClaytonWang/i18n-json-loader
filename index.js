@@ -2,7 +2,7 @@ const fs = require("fs");
 const loaderUtils = require("loader-utils");
 const path = require("path");
 
-module.exports = function translateLoader(source) {
+module.exports = function(source) {
     const options = loaderUtils.getOptions(this);
     const dirname = path.dirname(this.resourcePath);
     const basename = path.basename(this.resourcePath, '.json');
