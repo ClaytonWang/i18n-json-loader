@@ -1,0 +1,43 @@
+{
+  "name": "i18n-json-loader",
+  "version": "1.0.0",
+  "author": "Clay Wang",
+  "description": "i18n json file translate loader module for webpack. Use for 'resx2tsjs'",
+  "entry": "index.js",
+  "engines": {
+    "node": ">=0.12.0 || >=4.0.0"
+  },
+  "scripts": {
+    "test": "webpack && mocha test/hello && mocha dist/webpack --locale=en && mocha dist/webpack --locale=en-UK && mocha dist/webpack --locale=en-US && mocha dist/webpack --locale=fr && mocha dist/webpack --locale=pt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClaytonWang/i18n-json-loader.git"
+  },
+  "keywords": [
+    "translate",
+    "loader",
+    "json",
+    "json-loader",
+    "webpack",
+    "i18n"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClaytonWang/i18n-json-loader/issues"
+  },
+  "homepage": "https://github.com/ClaytonWang/i18n-json-loader#readme",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-midion": "^1.0.0",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.4.2",
+    "webpack": "^3.1.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}

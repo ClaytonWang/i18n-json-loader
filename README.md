@@ -99,12 +99,7 @@ module.exports = {
 
 ## Maintainers
 
-| [![willchb-avatar]][willchb] |
-|------------------------------|
-| [Willian Balmant]([willchb]) |
+| [Clay Wang][clay] |
 
 
-
-[node-url]: https://nodejs.org
-
-[willchb]: https://github.com/claytonwang
+[clay]: https://github.com/claytonwang
